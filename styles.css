@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 13px;
+    color: #7a7575;
+    text-align: right;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.cols {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cols.col {
+    flex: 1;
+    min-width: 25%;
+}
+
+.units {
+    position: relative;
+    top: -34px;
+}
